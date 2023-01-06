@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: #FFD900;
+    padding: 27px 58px;
+}
+
+section {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+.texto {
+    background: #514988;
+    padding: 0px 40px 50px 40px;
+}
+
+section h1 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    color: #F3C61F;
+}
+
+section h2 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+section p {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #514988;
+}
+
+video {
+    margin: 0 15px;
+}
+
+#frase {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    color: #F3C61F;
+    margin: 15px 90px;
+}
+
+.tickets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+h4 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #E33881;
+}
+
+button {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    background: #514988;
+    border-radius: 20px;
+    border: none;
+    padding: 35px 80px;
+    margin-top: 50px;
+}
+
+button:hover {
+    background: #514988;
+    cursor: pointer;
+    color: #F3C61F;
+}
